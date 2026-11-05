@@ -1,0 +1,6 @@
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+openpyxl>=3.1      # lets pandas read .xlsx files
+ipykernel>=6.29    # needed to run notebooks in VS Code
+jupyterlab>=4.0    # optional: classic browser notebook interface
