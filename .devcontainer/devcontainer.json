@@ -2,6 +2,5 @@
   "name": "Python 3",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "workspaceFolder": "/workspace",
-  "forwardPorts": [4200],
   "postCreateCommand": "pip install --user -r requirements.txt"
 }
