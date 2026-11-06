@@ -1,6 +1,8 @@
 {
-  "name": "Python 3",
-  "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "workspaceFolder": "/workspace",
-  "postCreateCommand": "pip install --user -r requirements.txt"
+  "name": "Data analysis",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": { "extensions": ["ms-python.python", "ms-toolsai.jupyter"] }
+  }
 }
