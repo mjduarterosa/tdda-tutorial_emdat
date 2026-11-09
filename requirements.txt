@@ -4,3 +4,4 @@ seaborn
 openpyxl
 ipykernel
 imageio
+plotly
